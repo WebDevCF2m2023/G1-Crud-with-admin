@@ -5,6 +5,10 @@ PHP/MySQL CRUD Procédural avec administration
 
 ![MVC](https://raw.githubusercontent.com/WebDevCF2m2023/G1-Crud-with-admin/main/data/img/MVC.png)
 
+## Notre DB
+
+![DB g1mvc](https://raw.githubusercontent.com/WebDevCF2m2023/G1-Crud-with-admin/main/data/img/g1mvc.png)
+
 ## Administateur
 
 - Login : Admin
