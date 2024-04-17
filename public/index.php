@@ -1,3 +1,13 @@
 <?php
 
-echo __DIR__;
+/*
+
+Front Controller 
+
+*/
+
+// appel de dépendances
+require_once "../config.php";
+
+
+
