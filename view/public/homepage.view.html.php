@@ -11,6 +11,7 @@
     <nav>
         <ul>
             <li><a href="./">Accueil</a></li>
+            <li><a href="?json">API</a> format JSON</li>
             <li><a href="?connect">Connexion</a></li>
         </ul>
     </nav>
@@ -34,9 +35,19 @@
         ?>
             <h3>Il y a <?=$nb?> <?=$nb>1 ? "lieux" : "lieu"?></h3>
 
+            <?php
+            // tant qu'on a des données
+            // var_dump($datas);
+            foreach($datas as $data):
+            ?>
+            <h4><?=$data['title']?></h4>
+            <p><?=$data['geolocdesc']?></p>
+            <p><?=$data['latitude']?> | <?=$data['longitude']?></p>
+            <hr>
         <?php
+            endforeach;
         endif;
-        ?>
+        ?>   
     </div>
 </body>
 </html>
