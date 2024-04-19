@@ -1,0 +1,11 @@
+nav ul li{
+    display: inline;
+    text-decoration: none;
+    padding-right: 1em;
+}
+#alert{
+    color: red;
+}
+#comment{
+    color: rgb(4, 71, 15);
+}   
