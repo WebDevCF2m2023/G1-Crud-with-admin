@@ -13,3 +13,7 @@ PHP/MySQL CRUD Procédural avec administration
 
 - Login : Admin
 - Password : admin1234
+
+## password_hash() and password_verify()
+
+https://onlinephp.io/c/43199
