@@ -28,6 +28,8 @@ if(isset($_GET['connect'])){
         if($connect===true){
             header("Location: ./");
             exit();
+        }else{
+            $error = "Login et/ou mot de passe incorrecte(s)";
         }
     }
 
