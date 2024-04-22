@@ -7,3 +7,5 @@ const DB_PWD = "";
 const DB_NAME = "g1mvc";
 const DB_PORT = 3306;
 const DB_CHARSET = "utf8mb4";
+
+const DB_PASSWORD = "";
