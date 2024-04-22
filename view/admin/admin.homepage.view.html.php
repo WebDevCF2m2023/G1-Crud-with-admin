@@ -64,7 +64,7 @@
         </table>
         <?php endif ?>   
         <?php if(isset($oneLoc))  : 
-        var_dump($oneLoc);
+        var_dump($oneLoc);    // pour montrer qu'on a bien récuperer l'info
 
             endif ?>
     </div>
