@@ -14,3 +14,11 @@ function getAllGeoloc(PDO $connection) : array|string
         return $e->getMessage();
     }
 }
+
+// on charge tous les champs d'un élément de geoloc grâce à son idgeoloc
+// nous renvoie false en cas d'échec ou le message d'erreur sql
+// ou un tableau associatif en cas de succès
+
+function getOneGeolocByID(){
+    
+}
