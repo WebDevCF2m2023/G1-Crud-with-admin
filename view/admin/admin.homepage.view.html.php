@@ -63,6 +63,10 @@
         <?php endforeach ?>
         </table>
         <?php endif ?>   
+        <?php if(isset($oneLoc))  : 
+        var_dump($oneLoc);
+
+            endif ?>
     </div>
 </body>
 </html>
