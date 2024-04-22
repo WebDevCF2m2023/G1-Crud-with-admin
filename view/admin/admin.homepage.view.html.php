@@ -11,6 +11,7 @@
     <nav>
         <ul>
             <li>Accueil de l'administration</li>
+            <li><a href="?create">Ajouter un lieu</a></li>
             <li><a href="?disconnect">Déconnexion</a></li>
         </ul>
     </nav>
@@ -55,8 +56,8 @@
                 <td><?=$data['geolocdesc']?></td>
                 <td><?=$data['latitude']?></td>
                 <td><?=$data['longitude']?></td>
-                <td><?=$data['update']?></td>
-                <td><?=$data['delete']?></td>
+                <td><a href="?update=<?=$data['idgeoloc']?>"><img src="img/edit.png" alt="update" /></a></td>
+                <td><a href="?delete=<?=$data['idgeoloc']?>"><img src="img/delete-file.png" alt="delete" /></a></td>
 
             </tr>
         <?php endforeach ?>
