@@ -29,7 +29,7 @@ if(isset($_GET['update'])&&ctype_digit($_GET['update'])){
         $longitude = (float) $_POST['longitude'];
 
         // fonction qui update la mise à jour
-        $update = updateOneGeolocByID($db,$idgeoloc);
+        $update = updateOneGeolocByID($db,$idgeoloc, $title, $geolocdesc, $latitude, $longitude);
         var_dump($update);
     }
 
